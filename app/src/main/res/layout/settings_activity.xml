@@ -11,15 +11,14 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="6dp"
         android:layout_marginBottom="6dp"
-        android:fontFamily="monospace"
+        android:fontFamily="serif"
         android:paddingStart="24dp"
         android:paddingTop="8dp"
         android:paddingEnd="24dp"
         android:paddingBottom="8dp"
         android:text="Developer mode"
-        android:textColor="#012B4C"
         android:textSize="18sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="italic" />
 
     <View
         android:id="@+id/divider"
@@ -35,15 +34,14 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="6dp"
         android:layout_marginBottom="6dp"
-        android:fontFamily="monospace"
+        android:fontFamily="serif"
         android:paddingStart="24dp"
         android:paddingTop="8dp"
         android:paddingEnd="24dp"
         android:paddingBottom="8dp"
         android:text="Wireless networks"
-        android:textColor="#012B4C"
         android:textSize="18sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="italic" />
 
     <View
         android:id="@+id/divider5"
@@ -59,15 +57,14 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="6dp"
         android:layout_marginBottom="6dp"
-        android:fontFamily="monospace"
+        android:fontFamily="serif"
         android:paddingStart="24dp"
         android:paddingTop="8dp"
         android:paddingEnd="24dp"
         android:paddingBottom="8dp"
         android:text="Tethering"
-        android:textColor="#012B4C"
         android:textSize="18sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="italic" />
     <View
         android:id="@+id/divider3"
         android:layout_width="match_parent"
@@ -82,15 +79,14 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="6dp"
         android:layout_marginBottom="6dp"
-        android:fontFamily="monospace"
+        android:fontFamily="serif"
         android:paddingStart="24dp"
         android:paddingTop="8dp"
         android:paddingEnd="24dp"
         android:paddingBottom="8dp"
-        android:text="Devide Info"
-        android:textColor="#012B4C"
+        android:text="Device Info"
         android:textSize="18sp"
-        android:textStyle="bold|italic" />
+        android:textStyle="italic" />
     <View
         android:id="@+id/divider4"
         android:layout_width="match_parent"

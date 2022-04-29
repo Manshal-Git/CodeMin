@@ -1,18 +1,13 @@
 package com.manshal_khatri.codmin
 
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
 import android.widget.TextView
-import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
-import androidx.preference.PreferenceFragmentCompat
-
-import java.util.zip.Inflater
 
 class SettingsActivity : AppCompatActivity() {
-//    lateinit var binding: SettingsActivityBinding
+
     lateinit var developer : TextView
     lateinit var wireless : TextView
     lateinit var tetherin : TextView
@@ -28,11 +23,17 @@ class SettingsActivity : AppCompatActivity() {
         tetherin = findViewById(R.id.tetherin)
         deviceInfo = findViewById(R.id.deviceInfo)
 
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        developer.setOnClickListener { startActivity( Intent(Settings.ACTION_APPLICATION_DEVELOPMENT_SETTINGS))}
-        wireless.setOnClickListener { startActivity(Intent(Settings.ACTION_WIRELESS_SETTINGS))}
-        tetherin.setOnClickListener { startActivity(Intent(Settings.ACTION_NFC_SETTINGS))}
-        deviceInfo.setOnClickListener { startActivity(Intent(Settings.ACTION_DEVICE_INFO_SETTINGS))}
+//        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        developer.setOnClickListener { startActivity( Intent(Settings.ACTION_APPLICATION_DEVELOPMENT_SETTINGS))
+            finish()}
+        wireless.setOnClickListener { startActivity(Intent(Settings.ACTION_WIRELESS_SETTINGS))
+        finish()}
+        tetherin.setOnClickListener { startActivity(Intent(Settings.ACTION_NFC_SETTINGS))
+        finish()}
+        deviceInfo.setOnClickListener { startActivity(Intent(Settings.ACTION_DEVICE_INFO_SETTINGS))
+        finish()}
+
+        //  FOR FINDING MORE KIND OF SETTINGS
         // search = findViewById(R.id.search)
        // search.setOnClickListener { startActivity(Intent(Settings.ACTION_APP_SEARCH_SETTINGS))}
 
