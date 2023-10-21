@@ -1,115 +1,44 @@
 <LinearLayout
+    android:id="@+id/devTiles"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:paddingVertical="16dp"
+    android:paddingStart="32dp">
 
     <TextView
         android:id="@+id/developer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="6dp"
-        android:fontFamily="serif"
-        android:paddingStart="24dp"
-        android:paddingTop="8dp"
-        android:paddingEnd="24dp"
-        android:paddingBottom="8dp"
-        android:text="Developer mode"
+        android:text="Developer Options"
         android:textSize="18sp"
-        android:textStyle="italic" />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
-
+        android:textStyle="italic"
+        android:layout_marginVertical="12dp"/>
     <TextView
         android:id="@+id/wireless"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="6dp"
-        android:fontFamily="serif"
-        android:paddingStart="24dp"
-        android:paddingTop="8dp"
-        android:paddingEnd="24dp"
-        android:paddingBottom="8dp"
         android:text="Wireless networks"
         android:textSize="18sp"
-        android:textStyle="italic" />
-
-    <View
-        android:id="@+id/divider5"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
-
+        android:textStyle="italic"
+        android:layout_marginVertical="12dp"/>
     <TextView
         android:id="@+id/tetherin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="6dp"
-        android:fontFamily="serif"
-        android:paddingStart="24dp"
-        android:paddingTop="8dp"
-        android:paddingEnd="24dp"
-        android:paddingBottom="8dp"
         android:text="Tethering"
         android:textSize="18sp"
-        android:textStyle="italic" />
-    <View
-        android:id="@+id/divider3"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
-
+        android:textStyle="italic"
+        android:layout_marginVertical="12dp"
+        android:visibility="gone" />
     <TextView
         android:id="@+id/deviceInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="6dp"
-        android:fontFamily="serif"
-        android:paddingStart="24dp"
-        android:paddingTop="8dp"
-        android:paddingEnd="24dp"
-        android:paddingBottom="8dp"
         android:text="Device Info"
         android:textSize="18sp"
-        android:textStyle="italic" />
-    <View
-        android:id="@+id/divider4"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
-        android:visibility="gone"/>
+        android:textStyle="italic"
+        android:layout_marginVertical="12dp"/>
 
-    <TextView
-        android:id="@+id/search"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="6dp"
-        android:fontFamily="monospace"
-        android:paddingStart="24dp"
-        android:paddingTop="8dp"
-        android:paddingEnd="24dp"
-        android:paddingBottom="8dp"
-        android:text="Search More..."
-        android:textColor="#012B4C"
-        android:textSize="18sp"
-        android:textStyle="bold|italic"
-        android:visibility="gone"/>
 </LinearLayout>
